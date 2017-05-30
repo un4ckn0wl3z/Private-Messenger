@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=DYElyUooa98
 - Multi User Access.
 - MetroModernUI
 - Login Form.
-- Register.
+- Register From.
 - Chat Room From.
 - Profile Editing From.
 - View user's profile Form.
