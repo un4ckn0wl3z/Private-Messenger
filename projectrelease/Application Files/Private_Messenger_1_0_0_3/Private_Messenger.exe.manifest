@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Private_Messenger.exe" version="1.0.0.3" publicKeyToken="698d6e64e55d5568" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Private_Messenger" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Private_Messenger.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.dll" size="353280">
+      <assemblyIdentity name="MetroFramework" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wsEtMbSETineMVlPyWMqNypVNjHeCgoEyK+RZo43z0k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Design.dll" size="16896">
+      <assemblyIdentity name="MetroFramework.Design" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CkqWCC4ldn5GlwM2SbFsdqZS4SB1eizsq4CSrQ1xa2U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Fonts.dll" size="672256">
+      <assemblyIdentity name="MetroFramework.Fonts" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yEOGmqylE1wtRylphfNcccqK9EMSiNBNSBxORsyT7iY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="457728">
+      <assemblyIdentity name="MySql.Data" version="6.9.8.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vZOt5pn+YIjqzABheL5YRnsrxRe1pFgyD4tfa0entVA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Private_Messenger.exe" size="849920">
+      <assemblyIdentity name="Private_Messenger" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>QDuBdxvycRINz7t/BfHluH1cx5hItjZ+W5EqbXf2y3o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Private_Messenger.exe.config" size="1032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qCFHx81XFNptOLe3vEWqT4h7LjVgHz06AyXEHAN/K+Y=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=NETMONSTERZ-PC\UN4CKN0WL3Z" issuerKeyHash="1a3c25f3ac49870c94dff257d3edb315375bf093" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>DR2m07Au/NSxwvmfgDhwa/WCspbY5Jz8NAO8RvKnCMk=</DigestValue></Reference></SignedInfo><SignatureValue>D2J+yccp6VNUjktJ0mC2EJ3dJpiyEInylVhh/r+4Z0jeJUAy1rYedMBO03kTmGTF0al1MNaxK4ND6JeOxy9s/I1A+Vsd6TaXB4bm/JAlkfW+7Kx1Vp/PG6K52T7PbZiRb9dcP1Gg7t6wTorjx2lTLBSkXalGQz9HPU+NYdIWa1k=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0LStrK1dIOvPdyx5ph8wUBnZ1w5FHthwlyIjBJv+2WNubFtUkObWXskL3WOe9lZh1T6I8XwOF88uyLrYaDf2afBFTOMgXvMsfOmZbBmrDwHTJupx4CZUiegPmdI0sTqEIznHxdlhAYrUdMppvP6qNigIbtnTC/ZQsTdMZYOK1l0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c908a7f246bc0334fc9ce4d896b282f56b7038809ff9c2b1d4fc2eb0d3a61d0d" Description="" Url=""><as:assemblyIdentity name="Private_Messenger.exe" version="1.0.0.3" publicKeyToken="698d6e64e55d5568" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NETMONSTERZ-PC\UN4CKN0WL3Z</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>HpxtJbPsssdo4j1eOZshTk9A/CgmnrpbfpYIt2Qkcoc=</DigestValue></Reference></SignedInfo><SignatureValue>fmaPNz9TEdoi8BHWpZFSVbZd7slyHXVMPGMArIkv8SOA5mIDy3e2Q4rpO0fWntrugddgVoUaCAd1nzouPZYBkiXofxYDP+WPinbjacbTQZ4s8dQD1pBuo9nsOLgSlNwzIUkn0Y3OIY3qTGclwyP/iHSrP9Tz9rqtOo/L+dEm5zo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0LStrK1dIOvPdyx5ph8wUBnZ1w5FHthwlyIjBJv+2WNubFtUkObWXskL3WOe9lZh1T6I8XwOF88uyLrYaDf2afBFTOMgXvMsfOmZbBmrDwHTJupx4CZUiegPmdI0sTqEIznHxdlhAYrUdMppvP6qNigIbtnTC/ZQsTdMZYOK1l0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICATCCAWqgAwIBAgIQdE0r54dtzLNM0bogaNNrTzANBgkqhkiG9w0BAQsFADA/MT0wOwYDVQQDHjQATgBFAFQATQBPAE4AUwBUAEUAUgBaAC0AUABDAFwAVQBOADQAQwBLAE4AMABXAEwAMwBaMB4XDTE3MDUxNDEwMjcyM1oXDTE4MDUxNDE2MjcyM1owPzE9MDsGA1UEAx40AE4ARQBUAE0ATwBOAFMAVABFAFIAWgAtAFAAQwBcAFUATgA0AEMASwBOADAAVwBMADMAWjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0LStrK1dIOvPdyx5ph8wUBnZ1w5FHthwlyIjBJv+2WNubFtUkObWXskL3WOe9lZh1T6I8XwOF88uyLrYaDf2afBFTOMgXvMsfOmZbBmrDwHTJupx4CZUiegPmdI0sTqEIznHxdlhAYrUdMppvP6qNigIbtnTC/ZQsTdMZYOK1l0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBmrdnkLtHDvmHpifichPYhzgQP0iUnumDP5iyXS6GUt5AfhJl12zkeyV/URoLr3agAjJxXRpua5KXeGPWOwZ/FjVgrNaKUICgoCax4+MPopdu5MEbc53DmOhao4UgMgJRosWCM7z5b77/+rvGEVFbbkdFCEObuaVRvcjq+ImxZ+g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
